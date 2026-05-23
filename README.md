@@ -5,8 +5,6 @@ A classic **Othello** board game implemented in C, playable directly in the term
 Two players take turns placing discs and flipping the opponent's pieces.  
 The game features a clean menu, in-game instructions, and visual highlighting of valid moves.
 
-![Game Screenshot](screenshot.png) *(optional: add a screenshot later)*
-
 ## Features
 
 - 🎮 Two-player local mode
