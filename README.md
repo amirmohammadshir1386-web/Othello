@@ -66,15 +66,6 @@ The game is organized into several functions for clarity:
 | `announceWinner()` | Shows the final result |
 | `showMenu()` / `showInstructions()` | Displays the main menu and rules |
 
-## Future Improvements
-
-Planned features for upcoming versions:
-
-- 🤖 **AI Opponent** – Play against the computer with difficulty levels (Minimax algorithm)
-- 💾 Save/Load game functionality
-- 🌐 Online multiplayer using sockets
-- 📋 Move history and undo option
-- 🖥️ GUI version (SDL or GTK)
 
 ## License
 
