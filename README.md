@@ -1,9 +1,35 @@
-```markdown
-# Othello (Reversi) - Terminal Game in C
+# 🎲 Othello (Reversi) — Terminal Game in C
 
-A classic **Othello** board game implemented in C, playable directly in the terminal with colored output.  
-Two players take turns placing discs and flipping the opponent's pieces.  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Build](https://github.com/amirmohammadshir1386-web/Othello/actions/workflows/build.yml/badge.svg)](https://github.com/amirmohammadshir1386-web/Othello/actions/workflows/build.yml)
+![Language](https://img.shields.io/badge/language-C-00599C.svg)
+![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20macOS%20%7C%20Windows-lightgrey.svg)
+![Status](https://img.shields.io/badge/status-completed-brightgreen.svg)
+
+A classic **Othello** board game implemented in C, playable directly in the terminal with colored output.
+Two players take turns placing discs and flipping the opponent's pieces.
 The game features a clean menu, in-game instructions, and visual highlighting of valid moves.
+
+> 📚 Originally built as a course project for **Fundamentals of Programming (مبانی برنامه‌نویسی)**. The project is feature-complete and not under active development by me, but it's open source — feel free to fork it, learn from it, or extend it.
+
+<!-- Optional: add a real screenshot of the game running in your terminal.
+     Save it as docs/screenshot.png and uncomment the line below.
+<p align="center"><img src="docs/screenshot.png" alt="Othello terminal screenshot" width="600"></p>
+-->
+
+## Table of Contents
+
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Compilation](#compilation)
+  - [Running the Game](#running-the-game)
+- [How to Play](#how-to-play)
+- [Code Structure](#code-structure)
+- [Ideas for Extending This Project](#ideas-for-extending-this-project)
+- [Contributing](#contributing)
+- [Security](#security)
+- [License](#license)
 
 ## Features
 
@@ -20,7 +46,7 @@ The game features a clean menu, in-game instructions, and visual highlighting of
 ## Getting Started
 
 ### Prerequisites
-- GCC compiler (or any C compiler)  
+- GCC compiler (or any C compiler)
 - Terminal that supports ANSI colors (Linux/macOS default; Windows Terminal or CMD with ANSI enabled)
 
 ### Compilation
@@ -40,7 +66,7 @@ On Windows (if compiled with MinGW):
 othello.exe
 ```
 
-### How to Play
+## How to Play
 - Choose **1** from the menu to start a game.
 - Enter names for Player 1 (Black ●) and Player 2 (White ○).
 - On your turn, enter the row and column coordinates of the square where you want to place a disc (e.g., `2 3`).
@@ -66,14 +92,29 @@ The game is organized into several functions for clarity:
 | `announceWinner()` | Shows the final result |
 | `showMenu()` / `showInstructions()` | Displays the main menu and rules |
 
+## Ideas for Extending This Project
+
+This project is complete and I don't plan on releasing new versions myself, but the code is a solid base if you want to practice C or build on it. A few ideas:
+
+- Single-player mode vs. a simple AI
+- Save / load game state
+- Undo last move
+- Split into multiple source files (`board.c`, `game.c`, `ui.c`)
+- Improve Windows terminal support without requiring ANSI mode
+
+## Contributing
+
+I'm not actively developing this further, but it's open source — forks, bug reports, and pull requests from others are still welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+## Security
+
+Found a bug with security implications (e.g. a buffer overflow)? Please see [SECURITY.md](SECURITY.md) for how to report it responsibly instead of opening a public issue.
 
 ## License
 
-This project is open source and free to use.  
-Feel free to fork, modify, and share it.
+This project is licensed under the [MIT License](LICENSE) — feel free to fork, modify, and share it.
 
 ---
 
-**Enjoy the game!** 🎲  
+**Enjoy the game!** 🎲
 *Made with love in C.*
-```
