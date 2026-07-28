@@ -1,0 +1,20 @@
+name: Build
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Compile othello-v1.c
+        run: gcc othello-v1.c -o othello -Wall -Wextra
+
+      - name: Verify binary was produced
+        run: test -f othello
