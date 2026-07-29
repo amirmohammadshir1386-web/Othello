@@ -12,10 +12,7 @@ The game features a clean menu, in-game instructions, and visual highlighting of
 
 > 📚 Originally built as a course project for **Fundamentals of Programming (مبانی برنامه‌نویسی)**. The project is feature-complete and not under active development by me, but it's open source — feel free to fork it, learn from it, or extend it.
 
-<!-- Optional: add a real screenshot of the game running in your terminal.
-     Save it as docs/screenshot.png and uncomment the line below.
 <p align="center"><img src="docs/screenshot.png" alt="Othello terminal screenshot" width="600"></p>
--->
 
 ## Table of Contents
 
