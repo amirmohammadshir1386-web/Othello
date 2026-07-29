@@ -1,7 +1,7 @@
 # 🎲 Othello (Reversi) — Terminal Game in C
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Build](https://github.com/amirmohammadshir1386-web/Othello/actions/workflows/build.yml/badge.svg)](https://github.com/amirmohammadshir1386-web/Othello/actions/workflows/main.yml)
+[![Build](https://github.com/amirmohammadshir1386-web/Othello/actions/workflows/main.yml/badge.svg)](https://github.com/amirmohammadshir1386-web/Othello/actions/workflows/main.yml)
 ![Language](https://img.shields.io/badge/language-C-00599C.svg)
 ![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20macOS%20%7C%20Windows-lightgrey.svg)
 ![Status](https://img.shields.io/badge/status-completed-brightgreen.svg)
